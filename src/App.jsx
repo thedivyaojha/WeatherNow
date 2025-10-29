@@ -74,10 +74,14 @@ function App() {
                     playsInline
                     className="absolute w-full h-full object-cover"
                 >
-                    <source src="https://www.pexels.com/video/a-park-s-view-of-autumn-trees-on-a-foggy-day-1779202/" type="video/mp4" />
+                    <source
+                        src="https://player.vimeo.com/external/365053688.sd.mp4?s=7a97b02152a2a53c7d5302cc3b56b7efc60ed1a1&profile_id=164&oauth2_token_id=57447761"
+                        type="video/mp4"
+                    />
                 </video>
                 <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
             </div>
+
 
 
             {/* Main Content */}
